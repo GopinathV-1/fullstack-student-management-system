@@ -143,6 +143,9 @@ $ npm start
 
 Now, you can access your react app in the localhost port 3000 [click here](http://localhost:3000/)
 
+# Note : If you want to perform CRUD operation on assignments in app login as a super user and if you login as a normal user you can only able to view assignments.
+
+
 ## Now move to the first terminal 
 
 ### Deactivate the virtual environment
