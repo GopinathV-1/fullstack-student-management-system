@@ -1,0 +1,2 @@
+[flake8]
+exclude = settings.py, __pycache__, ./api/urls.py, migrations, ./assignment/tests.py, ./assignment/views.py
