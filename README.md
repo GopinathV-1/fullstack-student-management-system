@@ -119,6 +119,32 @@ $ python3 manage.py runserver
 
 you can create the user by visiting register page ```http://127.0.0.1:8000/```
 
+### Now open the new terminal 
+
+
+## Part 2 Running the React App (Frontend)
+
+## Move to project directory
+```bash
+$ cd react-toy-project
+```
+### install all dependencies
+
+```bash
+$ npm install
+```
+It will install all the dependencies required for the project.
+
+### run the application
+
+```bash
+$ npm start
+```
+
+Now, you can access your react app in the localhost port 3000 [click here](http://localhost:3000/)
+
+## Now move to the first terminal 
+
 ### Deactivate the virtual environment
 if you have followed step1, use this command to get out of virtualenv
 ```bash
@@ -137,25 +163,3 @@ postgres=# \i delete_db.sql
 ```bash
 postgres=# \q
 ```
-## Part 2 Running the React App (Frontend)
-
-## Move to project directory
-```bash
-$ cd ..
-$ cd react-toy-project
-```
-### install all dependencies
-
-```bash
-$ npm install
-```
-It will install all the dependencies required for the project.
-
-### run the application
-
-```bash
-$ npm start
-```
-
-Now, you can access your react app in the localhost port 3000 [click here](http://localhost:3000/)
-
